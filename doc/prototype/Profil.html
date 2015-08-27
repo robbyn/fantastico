@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Profil</title>
+  
+
+  
+  
+  <style type="text/css">
+#wrapper {
+  margin: 8px auto;
+  padding: 4px 12px;
+  width: 600px;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 10pt;
+  background-color: #efefff;
+}
+h1 {
+  font-family: "Times New Roman",Times,serif;
+}
+
+  </style></head><body>
+<div id="wrapper">
+<h1>Mon Profil</h1>
+<form method="post" action="profile" name="profile">
+  <table style="text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+    <tbody>
+      <tr>
+        <td style="vertical-align: top;">*Adresse e-mail: </td>
+        <td style="vertical-align: top;"><input name="email" value="myself@mysite.com"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">*Mot de passe: </td>
+        <td style="vertical-align: top;"><input name="password" type="password"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">*encore une fois: </td>
+        <td style="vertical-align: top;"><input name="password" type="password"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">*Je suis: </td>
+        <td style="vertical-align: top;"><input name="sex" value="male" type="radio">Une femme <input name="sex" value="female" type="radio">Un
+homme </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">*Orientation: </td>
+        <td style="vertical-align: top;"><input checked="checked" name="orientation" value="hetero" type="radio">Hétérosexuelle <input name="orientation" value="homo" type="radio">Homosexuelle <input name="orientation" value="bi" type="radio">Bisexuelle </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">*Je recherche:<br>
+        </td>
+        <td style="vertical-align: top;"><input name="relationship" value="serious" type="radio">Une relation sérieuse <input name="relationship" value="casual" type="radio">Une aventure<br>
+        <input name="relationship" value="any" type="radio">Je suis ouvert(e) aux deux<br>
+        </td>
+      </tr>
+<tr>
+        <td style="vertical-align: top;">*Date de naissance: </td>
+        <td style="vertical-align: top;"><input maxlength="10" size="10" name="dateOfBirth" value="JJ/MM/AAAA"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">*Nom </td>
+        <td style="vertical-align: top;"><input name="lastname"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">*Prénom </td>
+        <td style="vertical-align: top;"><input name="firstname"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Adresse: </td>
+        <td style="vertical-align: top;"><input name="address1"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> <br>
+        </td>
+        <td style="vertical-align: top;"><input name="address2"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">N°Postal: </td>
+        <td style="vertical-align: top;"><input size="6" name="zip"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Localité: </td>
+        <td style="vertical-align: top;"><input name="city"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Canton/Département: </td>
+        <td style="vertical-align: top;"><input name="state"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Pays: </td>
+        <td style="vertical-align: top;">
+        <select size="1" name="country">
+        <option>France</option>
+        <option selected="selected">Suisse</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">N°Téléphone: </td>
+        <td style="vertical-align: top;"><input size="12" name="phone">
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Photo: </td>
+        <td style="vertical-align: top;"><img style="width: 150px; height: 175px;" alt="Ma photo" src="img/Elsa-Zylberstein.jpg"><br>
+Télécharger une photo:<br>
+        <input name="photo-file" type="file"> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> <br>
+        </td>
+        <td style="vertical-align: top;"><button style="margin-top: 20px;" value="Enregistrer mon profil" name="ok">Enregistrer
+mon profil</button> </td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+</div>
+
+</body></html>

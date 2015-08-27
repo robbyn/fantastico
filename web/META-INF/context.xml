@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/fantastico">
+    <ResourceLink global="jdbc/fantastico" name="jdbc/fantastico"
+            type="javax.sql.DataSource"/>
+    <ResourceLink global="mail/session" name="mail/session"
+            type="javax.mail.Session"/>
+    <Realm className="org.apache.catalina.realm.DataSourceRealm"
+            dataSourceName="jdbc/fantastico" debug="99" localDataSource="true"
+            digest="MD5" roleNameCol="ROLE" userCredCol="PASSWORD"
+            userNameCol="USERNAME" userRoleTable="user_roles"
+            userTable="active_users"/>
+</Context>

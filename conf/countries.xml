@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+    <country code='AD' shipping-fees='6.0'>
+        <title language='en'>Andorra</title>
+        <title language='fr'>Andorre</title>
+    </country>
+    <country code='AE' shipping-fees='10.0'>
+        <title language='en'>United Arab Emirates</title>
+        <title language='fr'>Émirats Arabes Unis</title>
+    </country>
+    <country code='AF' shipping-fees='10.0'>
+        <title language='en'>Afghanistan</title>
+        <title language='fr'>Afghanistan</title>
+    </country>
+    <country code='AG' shipping-fees='10.0'>
+        <title language='en'>Antigua And Barbuda</title>
+        <title language='fr'>Antigua-Et-Barbuda</title>
+    </country>
+    <country code='AI' shipping-fees='10.0'>
+        <title language='en'>Anguilla</title>
+        <title language='fr'>Anguilla</title>
+    </country>
+    <country code='AL' shipping-fees='6.0'>
+        <title language='en'>Albania</title>
+        <title language='fr'>Albanie</title>
+    </country>
+    <country code='AM' shipping-fees='10.0'>
+        <title language='en'>Armenia</title>
+        <title language='fr'>Arménie</title>
+    </country>
+    <country code='AN' shipping-fees='10.0'>
+        <title language='en'>Netherlands Antilles</title>
+        <title language='fr'>Antilles Néerlandaises</title>
+    </country>
+    <country code='AO' shipping-fees='10.0'>
+        <title language='en'>Angola</title>
+        <title language='fr'>Angola</title>
+    </country>
+    <country code='AQ' shipping-fees='10.0'>
+        <title language='en'>Antarctica</title>
+        <title language='fr'>Antarctique</title>
+    </country>
+    <country code='AR' shipping-fees='10.0'>
+        <title language='en'>Argentina</title>
+        <title language='fr'>Argentine</title>
+    </country>
+    <country code='AS' shipping-fees='10.0'>
+        <title language='en'>American Samoa</title>
+        <title language='fr'>Samoa Américaines</title>
+    </country>
+    <country code='AT' shipping-fees='6.0'>
+        <title language='en'>Austria</title>
+        <title language='fr'>Autriche</title>
+    </country>
+    <country code='AU' shipping-fees='10.0'>
+        <title language='en'>Australia</title>
+        <title language='fr'>Australie</title>
+    </country>
+    <country code='AW' shipping-fees='10.0'>
+        <title language='en'>Aruba</title>
+        <title language='fr'>Aruba</title>
+    </country>
+    <country code='AZ' shipping-fees='10.0'>
+        <title language='en'>Azerbaijan</title>
+        <title language='fr'>Azerbaïdjan</title>
+    </country>
+    <country code='BA' shipping-fees='6.0'>
+        <title language='en'>Bosnia And Herzegovina</title>
+        <title language='fr'>Bosnie-Herzégovine</title>
+    </country>
+    <country code='BB' shipping-fees='10.0'>
+        <title language='en'>Barbados</title>
+        <title language='fr'>Barbade</title>
+    </country>
+    <country code='BD' shipping-fees='10.0'>
+        <title language='en'>Bangladesh</title>
+        <title language='fr'>Bangladesh</title>
+    </country>
+    <country code='BE' shipping-fees='6.0'>
+        <title language='en'>Belgium</title>
+        <title language='fr'>Belgique</title>
+    </country>
+    <country code='BF' shipping-fees='10.0'>
+        <title language='en'>Burkina Faso</title>
+        <title language='fr'>Burkina Faso</title>
+    </country>
+    <country code='BG' shipping-fees='6.0'>
+        <title language='en'>Bulgaria</title>
+        <title language='fr'>Bulgarie</title>
+    </country>
+    <country code='BH' shipping-fees='10.0'>
+        <title language='en'>Bahrain</title>
+        <title language='fr'>Bahreïn</title>
+    </country>
+    <country code='BI' shipping-fees='10.0'>
+        <title language='en'>Burundi</title>
+        <title language='fr'>Burundi</title>
+    </country>
+    <country code='BJ' shipping-fees='10.0'>
+        <title language='en'>Benin</title>
+        <title language='fr'>Bénin</title>
+    </country>
+    <country code='BM' shipping-fees='10.0'>
+        <title language='en'>Bermuda</title>
+        <title language='fr'>Bermudes</title>
+    </country>
+    <country code='BN' shipping-fees='10.0'>
+        <title language='en'>Brunei Darussalam</title>
+        <title language='fr'>Brunéi Darussalam</title>
+    </country>
+    <country code='BO' shipping-fees='10.0'>
+        <title language='en'>Bolivia</title>
+        <title language='fr'>Bolivie</title>
+    </country>
+    <country code='BR' shipping-fees='10.0'>
+        <title language='en'>Brazil</title>
+        <title language='fr'>Brésil</title>
+    </country>
+    <country code='BS' shipping-fees='10.0'>
+        <title language='en'>Bahamas</title>
+        <title language='fr'>Bahamas</title>
+    </country>
+    <country code='BT' shipping-fees='10.0'>
+        <title language='en'>Bhutan</title>
+        <title language='fr'>Bhoutan</title>
+    </country>
+    <country code='BV' shipping-fees='10.0'>
+        <title language='en'>Bouvet Island</title>
+        <title language='fr'>Bouvet, Île</title>
+    </country>
+    <country code='BW' shipping-fees='10.0'>
+        <title language='en'>Botswana</title>
+        <title language='fr'>Botswana</title>
+    </country>
+    <country code='BY' shipping-fees='6.0'>
+        <title language='en'>Belarus</title>
+        <title language='fr'>Bélarus</title>
+    </country>
+    <country code='BZ' shipping-fees='10.0'>
+        <title language='en'>Belize</title>
+        <title language='fr'>Belize</title>
+    </country>
+    <country code='CA' shipping-fees='6.0'>
+        <title language='en'>Canada</title>
+        <title language='fr'>Canada</title>
+    </country>
+    <country code='CC' shipping-fees='10.0'>
+        <title language='en'>Cocos (Keeling) Islands</title>
+        <title language='fr'>Cocos (Keeling), Îles</title>
+    </country>
+    <country code='CD' shipping-fees='10.0'>
+        <title language='en'>Congo, The Democratic Republic Of The</title>
+        <title language='fr'>Congo, La République Démocratique Du</title>
+    </country>
+    <country code='CF' shipping-fees='10.0'>
+        <title language='en'>Central African Republic</title>
+        <title language='fr'>Centrafricaine, République</title>
+    </country>
+    <country code='CG' shipping-fees='10.0'>
+        <title language='en'>Congo</title>
+        <title language='fr'>Congo</title>
+    </country>
+    <country code='CH' shipping-fees='4.0'>
+        <title language='en'>Switzerland</title>
+        <title language='fr'>Suisse</title>
+    </country>
+    <country code='CI' shipping-fees='10.0'>
+        <title language='en'>Cote D'Ivoire</title>
+        <title language='fr'>Côte D'Ivoire</title>
+    </country>
+    <country code='CK' shipping-fees='10.0'>
+        <title language='en'>Cook Islands</title>
+        <title language='fr'>Cook, Îles</title>
+    </country>
+    <country code='CL' shipping-fees='10.0'>
+        <title language='en'>Chile</title>
+        <title language='fr'>Chili</title>
+    </country>
+    <country code='CM' shipping-fees='10.0'>
+        <title language='en'>Cameroon</title>
+        <title language='fr'>Cameroun</title>
+    </country>
+    <country code='CN' shipping-fees='10.0'>
+        <title language='en'>China</title>
+        <title language='fr'>Chine</title>
+    </country>
+    <country code='CO' shipping-fees='10.0'>
+        <title language='en'>Colombia</title>
+        <title language='fr'>Colombie</title>
+    </country>
+    <country code='CR' shipping-fees='10.0'>
+        <title language='en'>Costa Rica</title>
+        <title language='fr'>Costa Rica</title>
+    </country>
+    <country code='CU' shipping-fees='10.0'>
+        <title language='en'>Cuba</title>
+        <title language='fr'>Cuba</title>
+    </country>
+    <country code='CV' shipping-fees='10.0'>
+        <title language='en'>Cape Verde</title>
+        <title language='fr'>Cap-Vert</title>
+    </country>
+    <country code='CX' shipping-fees='10.0'>
+        <title language='en'>Christmas Island</title>
+        <title language='fr'>Christmas, ï¿½le</title>
+    </country>
+    <country code='CY' shipping-fees='6.0'>
+        <title language='en'>Cyprus</title>
+        <title language='fr'>Chypre</title>
+    </country>
+    <country code='CZ' shipping-fees='6.0'>
+        <title language='en'>Czech Republic</title>
+        <title language='fr'>Tchèque, République</title>
+    </country>
+    <country code='DE' shipping-fees='6.0'>
+        <title language='en'>Germany</title>
+        <title language='fr'>Allemagne</title>
+    </country>
+    <country code='DJ' shipping-fees='10.0'>
+        <title language='en'>Djibouti</title>
+        <title language='fr'>Djibouti</title>
+    </country>
+    <country code='DK' shipping-fees='6.0'>
+        <title language='en'>Denmark</title>
+        <title language='fr'>Danemark</title>
+    </country>
+    <country code='DM' shipping-fees='10.0'>
+        <title language='en'>Dominica</title>
+        <title language='fr'>Dominique</title>
+    </country>
+    <country code='DO' shipping-fees='10.0'>
+        <title language='en'>Dominican Republic</title>
+        <title language='fr'>Dominicaine, République</title>
+    </country>
+    <country code='DZ' shipping-fees='6.0'>
+        <title language='en'>Algeria</title>
+        <title language='fr'>Algérie</title>
+    </country>
+    <country code='EC' shipping-fees='10.0'>
+        <title language='en'>Ecuador</title>
+        <title language='fr'>Équateur</title>
+    </country>
+    <country code='EE' shipping-fees='6.0'>
+        <title language='en'>Estonia</title>
+        <title language='fr'>Estonie</title>
+    </country>
+    <country code='EG' shipping-fees='6.0'>
+        <title language='en'>Egypt</title>
+        <title language='fr'>Égypte</title>
+    </country>
+    <country code='EH' shipping-fees='6.0'>
+        <title language='en'>Western Sahara</title>
+        <title language='fr'>Sahara Occidental</title>
+    </country>
+    <country code='ER' shipping-fees='10.0'>
+        <title language='en'>Eritrea</title>
+        <title language='fr'>Érythrée</title>
+    </country>
+    <country code='ES' shipping-fees='6.0'>
+        <title language='en'>Spain</title>
+        <title language='fr'>Espagne</title>
+    </country>
+    <country code='ET' shipping-fees='10.0'>
+        <title language='en'>Ethiopia</title>
+        <title language='fr'>Éthiopie</title>
+    </country>
+    <country code='FI' shipping-fees='6.0'>
+        <title language='en'>Finland</title>
+        <title language='fr'>Finlande</title>
+    </country>
+    <country code='FJ' shipping-fees='10.0'>
+        <title language='en'>Fiji</title>
+        <title language='fr'>Fidji</title>
+    </country>
+    <country code='FK' shipping-fees='10.0'>
+        <title language='en'>Falkland Islands (Malvinas)</title>
+        <title language='fr'>Falkland, Îles (Malvinas)</title>
+    </country>
+    <country code='FM' shipping-fees='10.0'>
+        <title language='en'>Micronesia, Federated States Of</title>
+        <title language='fr'>Micronésie, États Fédérés De</title>
+    </country>
+    <country code='FO' shipping-fees='6.0'>
+        <title language='en'>Faroe Islands</title>
+        <title language='fr'>Féroé, Îles</title>
+    </country>
+    <country code='FR' shipping-fees='6.0'>
+        <title language='en'>France</title>
+        <title language='fr'>France</title>
+    </country>
+    <country code='GA' shipping-fees='10.0'>
+        <title language='en'>Gabon</title>
+        <title language='fr'>Gabon</title>
+    </country>
+    <country code='GB' shipping-fees='6.0'>
+        <title language='en'>United Kingdom</title>
+        <title language='fr'>Royaume-Uni</title>
+    </country>
+    <country code='GD' shipping-fees='10.0'>
+        <title language='en'>Grenada</title>
+        <title language='fr'>Grenade</title>
+    </country>
+    <country code='GE' shipping-fees='10.0'>
+        <title language='en'>Georgia</title>
+        <title language='fr'>Géorgie</title>
+    </country>
+    <country code='GF' shipping-fees='10.0'>
+        <title language='en'>French Guiana</title>
+        <title language='fr'>Guyane Française</title>
+    </country>
+    <country code='GH' shipping-fees='10.0'>
+        <title language='en'>Ghana</title>
+        <title language='fr'>Ghana</title>
+    </country>
+    <country code='GI' shipping-fees='6.0'>
+        <title language='en'>Gibraltar</title>
+        <title language='fr'>Gibraltar</title>
+    </country>
+    <country code='GL' shipping-fees='6.0'>
+        <title language='en'>Greenland</title>
+        <title language='fr'>Groenland</title>
+    </country>
+    <country code='GM' shipping-fees='10.0'>
+        <title language='en'>Gambia</title>
+        <title language='fr'>Gambie</title>
+    </country>
+    <country code='GN' shipping-fees='10.0'>
+        <title language='en'>Guinea</title>
+        <title language='fr'>Guinée</title>
+    </country>
+    <country code='GP' shipping-fees='10.0'>
+        <title language='en'>Guadeloupe</title>
+        <title language='fr'>Guadeloupe</title>
+    </country>
+    <country code='GQ' shipping-fees='10.0'>
+        <title language='en'>Equatorial Guinea</title>
+        <title language='fr'>Guinée Équatoriale</title>
+    </country>
+    <country code='GR' shipping-fees='6.0'>
+        <title language='en'>Greece</title>
+        <title language='fr'>Grêce</title>
+    </country>
+    <country code='GS' shipping-fees='10.0'>
+        <title language='en'>South Georgia And The South Sandwich Islands</title>
+        <title language='fr'>Géorgie Du Sud Et Les Îles Sandwich Du Sud</title>
+    </country>
+    <country code='GT' shipping-fees='10.0'>
+        <title language='en'>Guatemala</title>
+        <title language='fr'>Guatemala</title>
+    </country>
+    <country code='GU' shipping-fees='10.0'>
+        <title language='en'>Guam</title>
+        <title language='fr'>Guam</title>
+    </country>
+    <country code='GW' shipping-fees='10.0'>
+        <title language='en'>Guinea-Bissau</title>
+        <title language='fr'>Guinée-Bissau</title>
+    </country>
+    <country code='GY' shipping-fees='10.0'>
+        <title language='en'>Guyana</title>
+        <title language='fr'>Guyana</title>
+    </country>
+    <country code='HK' shipping-fees='10.0'>
+        <title language='en'>Hong Kong</title>
+        <title language='fr'>Hong-Kong</title>
+    </country>
+    <country code='HM' shipping-fees='10.0'>
+        <title language='en'>Heard Island And Mcdonald Islands</title>
+        <title language='fr'>Heard, Île Et Mcdonald, Îles</title>
+    </country>
+    <country code='HN' shipping-fees='10.0'>
+        <title language='en'>Honduras</title>
+        <title language='fr'>Honduras</title>
+    </country>
+    <country code='HR' shipping-fees='6.0'>
+        <title language='en'>Croatia</title>
+        <title language='fr'>Croatie</title>
+    </country>
+    <country code='HT' shipping-fees='10.0'>
+        <title language='en'>Haiti</title>
+        <title language='fr'>Haïti</title>
+    </country>
+    <country code='HU' shipping-fees='6.0'>
+        <title language='en'>Hungary</title>
+        <title language='fr'>Hongrie</title>
+    </country>
+    <country code='ID' shipping-fees='10.0'>
+        <title language='en'>Indonesia</title>
+        <title language='fr'>Indonésie</title>
+    </country>
+    <country code='IE' shipping-fees='6.0'>
+        <title language='en'>Ireland</title>
+        <title language='fr'>Irlande</title>
+    </country>
+    <country code='IL' shipping-fees='6.0'>
+        <title language='en'>Israel</title>
+        <title language='fr'>Israël</title>
+    </country>
+    <country code='IN' shipping-fees='10.0'>
+        <title language='en'>India</title>
+        <title language='fr'>Inde</title>
+    </country>
+    <country code='IO' shipping-fees='10.0'>
+        <title language='en'>British Indian Ocean Territory</title>
+        <title language='fr'>Océan Indien, Territoire Britannique De L'</title>
+    </country>
+    <country code='IQ' shipping-fees='10.0'>
+        <title language='en'>Iraq</title>
+        <title language='fr'>Iraq</title>
+    </country>
+    <country code='IR' shipping-fees='10.0'>
+        <title language='en'>Iran, Islamic Republic Of</title>
+        <title language='fr'>Iran, République Islamique D'</title>
+    </country>
+    <country code='IS' shipping-fees='6.0'>
+        <title language='en'>Iceland</title>
+        <title language='fr'>Islande</title>
+    </country>
+    <country code='IT' shipping-fees='6.0'>
+        <title language='en'>Italy</title>
+        <title language='fr'>Italie</title>
+    </country>
+    <country code='JM' shipping-fees='10.0'>
+        <title language='en'>Jamaica</title>
+        <title language='fr'>Jamaïque</title>
+    </country>
+    <country code='JO' shipping-fees='6.0'>
+        <title language='en'>Jordan</title>
+        <title language='fr'>Jordanie</title>
+    </country>
+    <country code='JP' shipping-fees='10.0'>
+        <title language='en'>Japan</title>
+        <title language='fr'>Japon</title>
+    </country>
+    <country code='KE' shipping-fees='10.0'>
+        <title language='en'>Kenya</title>
+        <title language='fr'>Kenya</title>
+    </country>
+    <country code='KG' shipping-fees='10.0'>
+        <title language='en'>Kyrgyzstan</title>
+        <title language='fr'>Kirghizistan</title>
+    </country>
+    <country code='KH' shipping-fees='10.0'>
+        <title language='en'>Cambodia</title>
+        <title language='fr'>Cambodge</title>
+    </country>
+    <country code='KI' shipping-fees='10.0'>
+        <title language='en'>Kiribati</title>
+        <title language='fr'>Kiribati</title>
+    </country>
+    <country code='KM' shipping-fees='10.0'>
+        <title language='en'>Comoros</title>
+        <title language='fr'>Comores</title>
+    </country>
+    <country code='KN' shipping-fees='10.0'>
+        <title language='en'>Saint Kitts And Nevis</title>
+        <title language='fr'>Saint-Kitts-Et-Nevis</title>
+    </country>
+    <country code='KP' shipping-fees='10.0'>
+        <title language='en'>Korea, Democratic People'S Republic Of</title>
+        <title language='fr'>Corée, République Populaire Démocratique De</title>
+    </country>
+    <country code='KR' shipping-fees='10.0'>
+        <title language='en'>Korea, Republic Of</title>
+        <title language='fr'>Corée, République De</title>
+    </country>
+    <country code='KW' shipping-fees='10.0'>
+        <title language='en'>Kuwait</title>
+        <title language='fr'>Koweït</title>
+    </country>
+    <country code='KY' shipping-fees='10.0'>
+        <title language='en'>Cayman Islands</title>
+        <title language='fr'>Caïmanes, Îles</title>
+    </country>
+    <country code='KZ' shipping-fees='10.0'>
+        <title language='en'>Kazakhstan</title>
+        <title language='fr'>Kazakhstan</title>
+    </country>
+    <country code='LA' shipping-fees='10.0'>
+        <title language='en'>Lao People'S Democratic Republic</title>
+        <title language='fr'>Lao, République Démocratique Populaire</title>
+    </country>
+    <country code='LB' shipping-fees='6.0'>
+        <title language='en'>Lebanon</title>
+        <title language='fr'>Liban</title>
+    </country>
+    <country code='LC' shipping-fees='10.0'>
+        <title language='en'>Saint Lucia</title>
+        <title language='fr'>Sainte-Lucie</title>
+    </country>
+    <country code='LI' shipping-fees='10.0'>
+        <title language='en'>Liechtenstein</title>
+        <title language='fr'>Liechtenstein</title>
+    </country>
+    <country code='LK' shipping-fees='10.0'>
+        <title language='en'>Sri Lanka</title>
+        <title language='fr'>Sri Lanka</title>
+    </country>
+    <country code='LR' shipping-fees='10.0'>
+        <title language='en'>Liberia</title>
+        <title language='fr'>Libéria</title>
+    </country>
+    <country code='LS' shipping-fees='10.0'>
+        <title language='en'>Lesotho</title>
+        <title language='fr'>Lesotho</title>
+    </country>
+    <country code='LT' shipping-fees='6.0'>
+        <title language='en'>Lithuania</title>
+        <title language='fr'>Lituanie</title>
+    </country>
+    <country code='LU' shipping-fees='6.0'>
+        <title language='en'>Luxembourg</title>
+        <title language='fr'>Luxembourg</title>
+    </country>
+    <country code='LV' shipping-fees='6.0'>
+        <title language='en'>Latvia</title>
+        <title language='fr'>Lettonie</title>
+    </country>
+    <country code='LY' shipping-fees='6.0'>
+        <title language='en'>Libyan Arab Jamahiriya</title>
+        <title language='fr'>Libyenne, Jamahiriya Arabe</title>
+    </country>
+    <country code='MA' shipping-fees='6.0'>
+        <title language='en'>Morocco</title>
+        <title language='fr'>Maroc</title>
+    </country>
+    <country code='MC' shipping-fees='6.0'>
+        <title language='en'>Monaco</title>
+        <title language='fr'>Monaco</title>
+    </country>
+    <country code='MD' shipping-fees='6.0'>
+        <title language='en'>Moldova, Republic Of</title>
+        <title language='fr'>Moldova, République De</title>
+    </country>
+    <country code='MG' shipping-fees='10.0'>
+        <title language='en'>Madagascar</title>
+        <title language='fr'>Madagascar</title>
+    </country>
+    <country code='MH' shipping-fees='10.0'>
+        <title language='en'>Marshall Islands</title>
+        <title language='fr'>Marshall, Îles</title>
+    </country>
+    <country code='MK' shipping-fees='6.0'>
+        <title language='en'>Macedonia, The Former Yugoslav Republic Of</title>
+        <title language='fr'>Macï¿½doine, L'Ex-République Yougoslave De</title>
+    </country>
+    <country code='ML' shipping-fees='10.0'>
+        <title language='en'>Mali</title>
+        <title language='fr'>Mali</title>
+    </country>
+    <country code='MM' shipping-fees='10.0'>
+        <title language='en'>Myanmar</title>
+        <title language='fr'>Myanmar</title>
+    </country>
+    <country code='MN' shipping-fees='10.0'>
+        <title language='en'>Mongolia</title>
+        <title language='fr'>Mongolie</title>
+    </country>
+    <country code='MO' shipping-fees='10.0'>
+        <title language='en'>Macao</title>
+        <title language='fr'>Macao</title>
+    </country>
+    <country code='MP' shipping-fees='10.0'>
+        <title language='en'>Northern Mariana Islands</title>
+        <title language='fr'>Mariannes Du Nord, Îles</title>
+    </country>
+    <country code='MQ' shipping-fees='10.0'>
+        <title language='en'>Martinique</title>
+        <title language='fr'>Martinique</title>
+    </country>
+    <country code='MR' shipping-fees='10.0'>
+        <title language='en'>Mauritania</title>
+        <title language='fr'>Mauritanie</title>
+    </country>
+    <country code='MS' shipping-fees='10.0'>
+        <title language='en'>Montserrat</title>
+        <title language='fr'>Montserrat</title>
+    </country>
+    <country code='MT' shipping-fees='6.0'>
+        <title language='en'>Malta</title>
+        <title language='fr'>Malte</title>
+    </country>
+    <country code='MU' shipping-fees='10.0'>
+        <title language='en'>Mauritius</title>
+        <title language='fr'>Maurice</title>
+    </country>
+    <country code='MV' shipping-fees='10.0'>
+        <title language='en'>Maldives</title>
+        <title language='fr'>Maldives</title>
+    </country>
+    <country code='MW' shipping-fees='10.0'>
+        <title language='en'>Malawi</title>
+        <title language='fr'>Malawi</title>
+    </country>
+    <country code='MX' shipping-fees='10.0'>
+        <title language='en'>Mexico</title>
+        <title language='fr'>Mexique</title>
+    </country>
+    <country code='MY' shipping-fees='10.0'>
+        <title language='en'>Malaysia</title>
+        <title language='fr'>Malaisie</title>
+    </country>
+    <country code='MZ' shipping-fees='10.0'>
+        <title language='en'>Mozambique</title>
+        <title language='fr'>Mozambique</title>
+    </country>
+    <country code='NA' shipping-fees='10.0'>
+        <title language='en'>Namibia</title>
+        <title language='fr'>Namibie</title>
+    </country>
+    <country code='NC' shipping-fees='10.0'>
+        <title language='en'>New Caledonia</title>
+        <title language='fr'>Nouvelle-Calédonie</title>
+    </country>
+    <country code='NE' shipping-fees='10.0'>
+        <title language='en'>Niger</title>
+        <title language='fr'>Niger</title>
+    </country>
+    <country code='NF' shipping-fees='10.0'>
+        <title language='en'>Norfolk Island</title>
+        <title language='fr'>Norfolk, ï¿½le</title>
+    </country>
+    <country code='NG' shipping-fees='10.0'>
+        <title language='en'>Nigeria</title>
+        <title language='fr'>Nigéria</title>
+    </country>
+    <country code='NI' shipping-fees='10.0'>
+        <title language='en'>Nicaragua</title>
+        <title language='fr'>Nicaragua</title>
+    </country>
+    <country code='NL' shipping-fees='6.0'>
+        <title language='en'>Netherlands</title>
+        <title language='fr'>Pays-Bas</title>
+    </country>
+    <country code='NO' shipping-fees='6.0'>
+        <title language='en'>Norway</title>
+        <title language='fr'>Norvège</title>
+    </country>
+    <country code='NP' shipping-fees='10.0'>
+        <title language='en'>Nepal</title>
+        <title language='fr'>Népal</title>
+    </country>
+    <country code='NR' shipping-fees='10.0'>
+        <title language='en'>Nauru</title>
+        <title language='fr'>Nauru</title>
+    </country>
+    <country code='NU' shipping-fees='10.0'>
+        <title language='en'>Niue</title>
+        <title language='fr'>Niué</title>
+    </country>
+    <country code='NZ' shipping-fees='10.0'>
+        <title language='en'>New Zealand</title>
+        <title language='fr'>Nouvelle-Zélande</title>
+    </country>
+    <country code='OM' shipping-fees='10.0'>
+        <title language='en'>Oman</title>
+        <title language='fr'>Oman</title>
+    </country>
+    <country code='PA' shipping-fees='10.0'>
+        <title language='en'>Panama</title>
+        <title language='fr'>Panama</title>
+    </country>
+    <country code='PE' shipping-fees='10.0'>
+        <title language='en'>Peru</title>
+        <title language='fr'>Pérou</title>
+    </country>
+    <country code='PF' shipping-fees='10.0'>
+        <title language='en'>French Polynesia</title>
+        <title language='fr'>Polynésie Franï¿½aise</title>
+    </country>
+    <country code='PG' shipping-fees='10.0'>
+        <title language='en'>Papua New Guinea</title>
+        <title language='fr'>Papouasie-Nouvelle-Guinée</title>
+    </country>
+    <country code='PH' shipping-fees='10.0'>
+        <title language='en'>Philippines</title>
+        <title language='fr'>Philippines</title>
+    </country>
+    <country code='PK' shipping-fees='10.0'>
+        <title language='en'>Pakistan</title>
+        <title language='fr'>Pakistan</title>
+    </country>
+    <country code='PL' shipping-fees='6.0'>
+        <title language='en'>Poland</title>
+        <title language='fr'>Pologne</title>
+    </country>
+    <country code='PM' shipping-fees='10.0'>
+        <title language='en'>Saint Pierre And Miquelon</title>
+        <title language='fr'>Saint-Pierre-Et-Miquelon</title>
+    </country>
+    <country code='PN' shipping-fees='10.0'>
+        <title language='en'>Pitcairn</title>
+        <title language='fr'>Pitcairn</title>
+    </country>
+    <country code='PR' shipping-fees='10.0'>
+        <title language='en'>Puerto Rico</title>
+        <title language='fr'>Porto Rico</title>
+    </country>
+    <country code='PS' shipping-fees='10.0'>
+        <title language='en'>Palestinian Territory, Occupied</title>
+        <title language='fr'>Palestinien Occupé, Territoire</title>
+    </country>
+    <country code='PT' shipping-fees='6.0'>
+        <title language='en'>Portugal</title>
+        <title language='fr'>Portugal</title>
+    </country>
+    <country code='PW' shipping-fees='10.0'>
+        <title language='en'>Palau</title>
+        <title language='fr'>Palaos</title>
+    </country>
+    <country code='PY' shipping-fees='10.0'>
+        <title language='en'>Paraguay</title>
+        <title language='fr'>Paraguay</title>
+    </country>
+    <country code='QA' shipping-fees='10.0'>
+        <title language='en'>Qatar</title>
+        <title language='fr'>Qatar</title>
+    </country>
+    <country code='RE' shipping-fees='10.0'>
+        <title language='en'>Reunion</title>
+        <title language='fr'>Réunion</title>
+    </country>
+    <country code='RO' shipping-fees='6.0'>
+        <title language='en'>Romania</title>
+        <title language='fr'>Roumanie</title>
+    </country>
+    <country code='RU' shipping-fees='6.0'>
+        <title language='en'>Russian Federation</title>
+        <title language='fr'>Russie, Fédération De</title>
+    </country>
+    <country code='RW' shipping-fees='10.0'>
+        <title language='en'>Rwanda</title>
+        <title language='fr'>Rwanda</title>
+    </country>
+    <country code='SA' shipping-fees='10.0'>
+        <title language='en'>Saudi Arabia</title>
+        <title language='fr'>Arabie Saoudite</title>
+    </country>
+    <country code='SB' shipping-fees='10.0'>
+        <title language='en'>Solomon Islands</title>
+        <title language='fr'>Salomon, Îles</title>
+    </country>
+    <country code='SC' shipping-fees='10.0'>
+        <title language='en'>Seychelles</title>
+        <title language='fr'>Seychelles</title>
+    </country>
+    <country code='SD' shipping-fees='10.0'>
+        <title language='en'>Sudan</title>
+        <title language='fr'>Soudan</title>
+    </country>
+    <country code='SE' shipping-fees='6.0'>
+        <title language='en'>Sweden</title>
+        <title language='fr'>Suède</title>
+    </country>
+    <country code='SG' shipping-fees='10.0'>
+        <title language='en'>Singapore</title>
+        <title language='fr'>Singapour</title>
+    </country>
+    <country code='SH' shipping-fees='10.0'>
+        <title language='en'>Saint Helena</title>
+        <title language='fr'>Sainte-Hélène</title>
+    </country>
+    <country code='SI' shipping-fees='6.0'>
+        <title language='en'>Slovenia</title>
+        <title language='fr'>Slovénie</title>
+    </country>
+    <country code='SJ' shipping-fees='10.0'>
+        <title language='en'>Svalbard And Jan Mayen</title>
+        <title language='fr'>Svalbard Et Île Jan Mayen</title>
+    </country>
+    <country code='SK' shipping-fees='6.0'>
+        <title language='en'>Slovakia</title>
+        <title language='fr'>Slovaquie</title>
+    </country>
+    <country code='SL' shipping-fees='10.0'>
+        <title language='en'>Sierra Leone</title>
+        <title language='fr'>Sierra Leone</title>
+    </country>
+    <country code='SM' shipping-fees='6.0'>
+        <title language='en'>San Marino</title>
+        <title language='fr'>Saint-Marin</title>
+    </country>
+    <country code='SN' shipping-fees='10.0'>
+        <title language='en'>Senegal</title>
+        <title language='fr'>Sénégal</title>
+    </country>
+    <country code='SO' shipping-fees='10.0'>
+        <title language='en'>Somalia</title>
+        <title language='fr'>Somalie</title>
+    </country>
+    <country code='SR' shipping-fees='10.0'>
+        <title language='en'>Suriname</title>
+        <title language='fr'>Suriname</title>
+    </country>
+    <country code='ST' shipping-fees='10.0'>
+        <title language='en'>Sao Tome And Principe</title>
+        <title language='fr'>Sao Tomé-Et-Principe</title>
+    </country>
+    <country code='SV' shipping-fees='10.0'>
+        <title language='en'>El Salvador</title>
+        <title language='fr'>El Salvador</title>
+    </country>
+    <country code='SY' shipping-fees='6.0'>
+        <title language='en'>Syrian Arab Republic</title>
+        <title language='fr'>Syrienne, République Arabe</title>
+    </country>
+    <country code='SZ' shipping-fees='10.0'>
+        <title language='en'>Swaziland</title>
+        <title language='fr'>Swaziland</title>
+    </country>
+    <country code='TC' shipping-fees='10.0'>
+        <title language='en'>Turks And Caicos Islands</title>
+        <title language='fr'>Turks Et Caïques, Îles</title>
+    </country>
+    <country code='TD' shipping-fees='10.0'>
+        <title language='en'>Chad</title>
+        <title language='fr'>Tchad</title>
+    </country>
+    <country code='TF' shipping-fees='10.0'>
+        <title language='en'>French Southern Territories</title>
+        <title language='fr'>Terres Australes Françaises</title>
+    </country>
+    <country code='TG' shipping-fees='10.0'>
+        <title language='en'>Togo</title>
+        <title language='fr'>Togo</title>
+    </country>
+    <country code='TH' shipping-fees='10.0'>
+        <title language='en'>Thailand</title>
+        <title language='fr'>Thaïlande</title>
+    </country>
+    <country code='TJ' shipping-fees='10.0'>
+        <title language='en'>Tajikistan</title>
+        <title language='fr'>Tadjikistan</title>
+    </country>
+    <country code='TK' shipping-fees='10.0'>
+        <title language='en'>Tokelau</title>
+        <title language='fr'>Tokelau</title>
+    </country>
+    <country code='TL' shipping-fees='10.0'>
+        <title language='en'>East Timor</title>
+        <title language='fr'>Timor Oriental</title>
+    </country>
+    <country code='TM' shipping-fees='10.0'>
+        <title language='en'>Turkmenistan</title>
+        <title language='fr'>Turkménistan</title>
+    </country>
+    <country code='TN' shipping-fees='6.0'>
+        <title language='en'>Tunisia</title>
+        <title language='fr'>Tunisie</title>
+    </country>
+    <country code='TO' shipping-fees='10.0'>
+        <title language='en'>Tonga</title>
+        <title language='fr'>Tonga</title>
+    </country>
+    <country code='TR' shipping-fees='6.0'>
+        <title language='en'>Turkey</title>
+        <title language='fr'>Turquie</title>
+    </country>
+    <country code='TT' shipping-fees='10.0'>
+        <title language='en'>Trinidad And Tobago</title>
+        <title language='fr'>Trinité-Et-Tobago</title>
+    </country>
+    <country code='TV' shipping-fees='10.0'>
+        <title language='en'>Tuvalu</title>
+        <title language='fr'>Tuvalu</title>
+    </country>
+    <country code='TW' shipping-fees='10.0'>
+        <title language='en'>Taiwan, Province Of China</title>
+        <title language='fr'>Taïwan, Province De Chine</title>
+    </country>
+    <country code='TZ' shipping-fees='10.0'>
+        <title language='en'>Tanzania, United Republic Of</title>
+        <title language='fr'>Tanzanie, République-Unie De</title>
+    </country>
+    <country code='UA' shipping-fees='6.0'>
+        <title language='en'>Ukraine</title>
+        <title language='fr'>Ukraine</title>
+    </country>
+    <country code='UG' shipping-fees='10.0'>
+        <title language='en'>Uganda</title>
+        <title language='fr'>Ouganda</title>
+    </country>
+    <country code='UM' shipping-fees='10.0'>
+        <title language='en'>United States Minor Outlying Islands</title>
+        <title language='fr'>Îles Mineures Éloignées Des États-Unis</title>
+    </country>
+    <country code='US' shipping-fees='6.0'>
+        <title language='en'>United States</title>
+        <title language='fr'>États-Unis</title>
+    </country>
+    <country code='UY' shipping-fees='10.0'>
+        <title language='en'>Uruguay</title>
+        <title language='fr'>Uruguay</title>
+    </country>
+    <country code='UZ' shipping-fees='10.0'>
+        <title language='en'>Uzbekistan</title>
+        <title language='fr'>Ouzbékistan</title>
+    </country>
+    <country code='VA' shipping-fees='6.0'>
+        <title language='en'>Holy See (Vatican City State)</title>
+        <title language='fr'>Saint-Siège (État De La Cité Du Vatican)</title>
+    </country>
+    <country code='VC' shipping-fees='10.0'>
+        <title language='en'>Saint Vincent And The Grenadines</title>
+        <title language='fr'>Saint-Vincent-Et-Les Grenadines</title>
+    </country>
+    <country code='VE' shipping-fees='10.0'>
+        <title language='en'>Venezuela</title>
+        <title language='fr'>Venezuela</title>
+    </country>
+    <country code='VG' shipping-fees='10.0'>
+        <title language='en'>Virgin Islands, British</title>
+        <title language='fr'>Îles Vierges Britanniques</title>
+    </country>
+    <country code='VI' shipping-fees='10.0'>
+        <title language='en'>Virgin Islands, U.S.</title>
+        <title language='fr'>Îles Vierges Des États-Unis</title>
+    </country>
+    <country code='VN' shipping-fees='10.0'>
+        <title language='en'>Viet Nam</title>
+        <title language='fr'>Viet Nam</title>
+    </country>
+    <country code='VU' shipping-fees='10.0'>
+        <title language='en'>Vanuatu</title>
+        <title language='fr'>Vanuatu</title>
+    </country>
+    <country code='WF' shipping-fees='10.0'>
+        <title language='en'>Wallis And Futuna</title>
+        <title language='fr'>Wallis Et Futuna</title>
+    </country>
+    <country code='WS' shipping-fees='10.0'>
+        <title language='en'>Samoa</title>
+        <title language='fr'>Samoa</title>
+    </country>
+    <country code='YE' shipping-fees='10.0'>
+        <title language='en'>Yemen</title>
+        <title language='fr'>Yémen</title>
+    </country>
+    <country code='YT' shipping-fees='10.0'>
+        <title language='en'>Mayotte</title>
+        <title language='fr'>Mayotte</title>
+    </country>
+    <country code='YU' shipping-fees='6.0'>
+        <title language='en'>Yugoslavia</title>
+        <title language='fr'>Yougoslavie</title>
+    </country>
+    <country code='ZA' shipping-fees='10.0'>
+        <title language='en'>South Africa</title>
+        <title language='fr'>Afrique Du Sud</title>
+    </country>
+    <country code='ZM' shipping-fees='10.0'>
+        <title language='en'>Zambia</title>
+        <title language='fr'>Zambie</title>
+    </country>
+    <country code='ZW' shipping-fees='10.0'>
+        <title language='en'>Zimbabwe</title>
+        <title language='fr'>Zimbabwe</title>
+    </country>
+</countries>

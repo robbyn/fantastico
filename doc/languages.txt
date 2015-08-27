@@ -1,0 +1,191 @@
+ISO 639-1 Code  	English name of Language  	French name of Language
+aa 	Afar 	afar
+ab 	Abkhazian 	abkhaze
+ae 	Avestan 	avestique
+af 	Afrikaans 	afrikaans
+ak 	Akan 	akan
+am 	Amharic 	amharique
+an 	Aragonese 	aragonais
+ar 	Arabic 	arabe
+as 	Assamese 	assamais
+av 	Avaric 	avar
+ay 	Aymara 	aymara
+az 	Azerbaijani 	azéri
+ba 	Bashkir 	bachkir
+be 	Belarusian 	biélorusse
+bg 	Bulgarian 	bulgare
+bh 	Bihari languages 	langues biharis
+bi 	Bislama 	bichlamar
+bm 	Bambara 	bambara
+bn 	Bengali 	bengali
+bo 	Tibetan 	tibétain
+bo 	Tibetan 	tibétain
+br 	Breton 	breton
+bs 	Bosnian 	bosniaque
+ca 	Catalan; Valencian 	catalan; valencien
+ce 	Chechen 	tchétchène
+ch 	Chamorro 	chamorro
+co 	Corsican 	corse
+cr 	Cree 	cree
+cs 	Czech 	tchèque
+cs 	Czech 	tchèque
+cu 	Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic 	slavon d'église; vieux slave; slavon liturgique; vieux bulgare
+cv 	Chuvash 	tchouvache
+cy 	Welsh 	gallois
+cy 	Welsh 	gallois
+da 	Danish 	danois
+de 	German 	allemand
+dv 	Divehi; Dhivehi; Maldivian 	maldivien
+dz 	Dzongkha 	dzongkha
+ee 	Ewe 	éwé
+el 	Greek, Modern (1453-) 	grec moderne (après 1453)
+en 	English 	anglais
+eo 	Esperanto 	espéranto
+es 	Spanish; Castilian 	espagnol; castillan
+et 	Estonian 	estonien
+eu 	Basque 	basque
+fa 	Persian 	persan
+ff 	Fulah 	peul
+fi 	Finnish 	finnois
+fj 	Fijian 	fidjien
+fo 	Faroese 	féroïen
+fr 	French 	français
+fy 	Western Frisian 	frison occidental
+ga 	Irish 	irlandais
+gd 	Gaelic; Scottish Gaelic 	gaélique; gaélique écossais
+gl 	Galician 	galicien
+gn 	Guarani 	guarani
+gu 	Gujarati 	goudjrati
+gv 	Manx 	manx; mannois
+ha 	Hausa 	haoussa
+he 	Hebrew 	hébreu
+hi 	Hindi 	hindi
+ho 	Hiri Motu 	hiri motu
+hr 	Croatian 	croate
+ht 	Haitian; Haitian Creole 	haïtien; créole haïtien
+hu 	Hungarian 	hongrois
+hy 	Armenian 	arménien
+hy 	Armenian 	arménien
+hz 	Herero 	herero
+ia 	Interlingua (International Auxiliary Language Association) 	interlingua (langue auxiliaire internationale)
+id 	Indonesian 	indonésien
+ie 	Interlingue; Occidental 	interlingue
+ig 	Igbo 	igbo
+ii 	Sichuan Yi; Nuosu 	yi de Sichuan
+ik 	Inupiaq 	inupiaq
+io 	Ido 	ido
+is 	Icelandic 	islandais
+is 	Icelandic 	islandais
+it 	Italian 	italien
+iu 	Inuktitut 	inuktitut
+ja 	Japanese 	japonais
+jv 	Javanese 	javanais
+ka 	Georgian 	géorgien
+ka 	Georgian 	géorgien
+kg 	Kongo 	kongo
+ki 	Kikuyu; Gikuyu 	kikuyu
+kj 	Kuanyama; Kwanyama 	kuanyama; kwanyama
+kk 	Kazakh 	kazakh
+kl 	Kalaallisut; Greenlandic 	groenlandais
+km 	Central Khmer 	khmer central
+kn 	Kannada 	kannada
+ko 	Korean 	coréen
+kr 	Kanuri 	kanouri
+ks 	Kashmiri 	kashmiri
+ku 	Kurdish 	kurde
+kv 	Komi 	kom
+kw 	Cornish 	cornique
+ky 	Kirghiz; Kyrgyz 	kirghiz
+la 	Latin 	latin
+lb 	Luxembourgish; Letzeburgesch 	luxembourgeois
+lg 	Ganda 	ganda
+li 	Limburgan; Limburger; Limburgish 	limbourgeois
+ln 	Lingala 	lingala
+lo 	Lao 	lao
+lt 	Lithuanian 	lituanien
+lu 	Luba-Katanga 	luba-katanga
+lv 	Latvian 	letton
+mg 	Malagasy 	malgache
+mh 	Marshallese 	marshall
+mi 	Maori 	maori
+mk 	Macedonian 	macédonien
+ml 	Malayalam 	malayalam
+mn 	Mongolian 	mongol
+mr 	Marathi 	marathe
+ms 	Malay 	malais
+mt 	Maltese 	maltais
+my 	Burmese 	birman
+na 	Nauru 	nauruan
+nb 	Bokmål, Norwegian; Norwegian Bokmål 	norvégien bokmål
+nd 	Ndebele, North; North Ndebele 	ndébélé du Nord
+ne 	Nepali 	népalais
+ng 	Ndonga 	ndonga
+nl 	Dutch; Flemish 	néerlandais; flamand
+nn 	Norwegian Nynorsk; Nynorsk, Norwegian 	norvégien nynorsk; nynorsk, norvégien
+no 	Norwegian 	norvégien
+nr 	Ndebele, South; South Ndebele 	ndébélé du Sud
+nv 	Navajo; Navaho 	navaho
+ny 	Chichewa; Chewa; Nyanja 	chichewa; chewa; nyanja
+oc 	Occitan (post 1500) 	occitan (après 1500)
+oj 	Ojibwa 	ojibwa
+om 	Oromo 	galla
+or 	Oriya 	oriya
+os 	Ossetian; Ossetic 	ossète
+pa 	Panjabi; Punjabi 	pendjabi
+pi 	Pali 	pali
+pl 	Polish 	polonais
+ps 	Pushto; Pashto 	pachto
+pt 	Portuguese 	portugais
+qu 	Quechua 	quechua
+rm 	Romansh 	romanche
+rn 	Rundi 	rundi
+ro 	Romanian; Moldavian; Moldovan 	roumain; moldave
+ru 	Russian 	russe
+rw 	Kinyarwanda 	rwanda
+sa 	Sanskrit 	sanskrit
+sc 	Sardinian 	sarde
+sd 	Sindhi 	sindhi
+se 	Northern Sami 	sami du Nord
+sg 	Sango 	sango
+si 	Sinhala; Sinhalese 	singhalais
+sk 	Slovak 	slovaque
+sl 	Slovenian 	slovène
+sm 	Samoan 	samoan
+sn 	Shona 	shona
+so 	Somali 	somali
+sq 	Albanian 	albanais
+sr 	Serbian 	serbe
+ss 	Swati 	swati
+st 	Sotho, Southern 	sotho du Sud
+su 	Sundanese 	soundanais
+sv 	Swedish 	suédois
+sw 	Swahili 	swahili
+ta 	Tamil 	tamoul
+te 	Telugu 	télougou
+tg 	Tajik 	tadjik
+th 	Thai 	thaï
+ti 	Tigrinya 	tigrigna
+tk 	Turkmen 	turkmène
+tl 	Tagalog 	tagalog
+tn 	Tswana 	tswana
+to 	Tonga (Tonga Islands) 	tongan (Îles Tonga)
+tr 	Turkish 	turc
+ts 	Tsonga 	tsonga
+tt 	Tatar 	tatar
+tw 	Twi 	twi
+ty 	Tahitian 	tahitien
+ug 	Uighur; Uyghur 	ouïgour
+uk 	Ukrainian 	ukrainien
+ur 	Urdu 	ourdou
+uz 	Uzbek 	ouszbek
+ve 	Venda 	venda
+vi 	Vietnamese 	vietnamien
+vo 	Volapük 	volapük
+wa 	Walloon 	wallon
+wo 	Wolof 	wolof
+xh 	Xhosa 	xhosa
+yi 	Yiddish 	yiddish
+yo 	Yoruba 	yoruba
+za 	Zhuang; Chuang 	zhuang; chuang
+zh 	Chinese 	chinois
+zu 	Zulu 	zoulou

@@ -1,0 +1,36 @@
+<Server port="8105" shutdown="SHUTDOWN">
+    <GlobalNamingResources>
+        <Resource name="mail/session" auth="Container" type="javax.mail.Session"
+                mail.transport.protocol="smtp"
+                mail.smtp.auth="true"
+                mail.debug="false"
+                mail.smtp.host="www.perry.ch"
+                mail.smtp.from="info@perry.ch"
+                mail.smtp.auth="true"
+                mail.smtp.user="info"
+                mail.smtp.password="Ms3Fbsn"
+                mail.smtp.ssl.enable="true"
+                mail.smtp.ssl.socketFactory.class="javax.net.ssl.SSLSocketFactory"
+                mail.smtp.ssl.socketFactory.fallback="false"
+                mail.smtp.ssl.socketFactory.port="465"
+                mail.smtp.ssl.checkserveridentity="false"/>
+        <Resource auth="Container" type="javax.sql.DataSource" name="jdbc/fantastico"
+                driverClassName="com.mysql.jdbc.Driver"
+                url="jdbc:mysql://localhost/fantastico"
+                maxActive="10"
+                maxIdle="5"
+                validationQuery="SELECT 1"
+                testOnBorrow="true"
+                testWhileIdle="true"
+                timeBetweenEvictionRunsMillis="10000"
+                minEvictableIdleTimeMillis="60000"
+                username="fantastico" password="fantastico"/>
+    </GlobalNamingResources>
+
+    <Service name="Catalina">
+        <Connector port="8180" URIEncoding="UTF-8" />
+        <Engine name="Catalina" defaultHost="localhost">
+            <Host name="localhost" appBase="webapps" />
+        </Engine>
+    </Service>
+</Server>

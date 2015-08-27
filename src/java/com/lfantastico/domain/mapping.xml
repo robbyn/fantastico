@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-access="field" package="com.lfantastico.domain">
+    <class name="Site" table="sites">
+        <id column="ID" name="id">
+            <generator class="native"/>
+        </id>
+        <property column="HOSTNAME" length="64" name="hostName" type="string" unique="true"/>
+        <map cascade="all-delete-orphan" name="versions">
+            <key column="SITE_ID"/>
+            <map-key column="LANGUAGE" length="2" type="string"/>
+            <one-to-many class="SiteVersion"/>
+        </map>
+        <set cascade="all-delete-orphan" name="keywords">
+            <key column="SITE_ID"/>
+            <one-to-many class="Keyword"/>
+        </set>
+    </class>
+    <class name="Keyword" table="keywords">
+        <id column="ID" name="id">
+            <generator class="native"/>
+        </id>
+        <map cascade="all-delete-orphan" name="texts" table="keywords_texts">
+            <key column="KEYWORD_ID"/>
+            <map-key column="LANGUAGE" length="2" type="string"/>
+            <element column="VALUE" length="255" type="string"/>
+        </map>
+    </class>
+    <class name="SiteVersion" table="siteversions">
+        <id column="ID" name="id">
+            <generator class="native"/>
+        </id>
+        <map cascade="all-delete-orphan" name="strings" table="siteversions_strings">
+            <key column="SITEVERSION_ID"/>
+            <map-key column="NAME" length="48" type="string"/>
+            <element column="VALUE" length="255" type="string"/>
+        </map>
+        <map cascade="all-delete-orphan" name="texts" table="siteversions_texts">
+            <key column="SITEVERSION_ID"/>
+            <map-key column="NAME" length="48" type="string"/>
+            <element column="VALUE" type="text"/>
+        </map>
+        <map cascade="all-delete-orphan" lazy="true" name="pages">
+            <key column="SITEVERSION_ID" not-null="true"/>
+            <map-key column="NAME" length="16" type="string"/>
+            <one-to-many class="PageVersion"/>
+        </map>
+        <map cascade="all-delete-orphan" lazy="extra" name="mailTemplates">
+            <key column="SITEVERSION_ID" not-null="true"/>
+            <map-key column="NAME" length="32" type="string"/>
+            <one-to-many class="MailTemplate"/>
+        </map>
+    </class>
+    <class name="MailTemplate" table="mailtemplates">
+        <id column="ID" name="id">
+            <generator class="native"/>
+        </id>
+        <property column="SUBTYPE" length="16" name="subtype" type="string"/>
+        <property column="SENDER" length="255" name="from" type="string"/>
+        <property column="SUBJECT" length="255" name="subject" type="string"/>
+        <property column="BODY" name="body" type="text"/>
+        <set cascade="all-delete-orphan" lazy="false" name="tos" table="mailtemplates_recipients">
+            <key column="TEMPLATE_ID" not-null="true"/>
+            <element column="ADDRESS" length="255" not-null="true" type="string"/>
+        </set>
+        <set cascade="all-delete-orphan" lazy="false" name="bccs" table="mailtemplates_bccs">
+            <key column="TEMPLATE_ID" not-null="true"/>
+            <element column="ADDRESS" length="255" not-null="true" type="string"/>
+        </set>
+    </class>
+    <class name="PageVersion" table="pageversions">
+        <id column="ID" name="id">
+            <generator class="native"/>
+        </id>
+        <map cascade="all-delete-orphan" name="strings" table="pageversions_strings">
+            <key column="PAGEVERSION_ID"/>
+            <map-key column="NAME" length="32" type="string"/>
+            <element column="VALUE" length="255" type="string"/>
+        </map>
+        <map cascade="all-delete-orphan" name="texts" table="pageversions_texts">
+            <key column="PAGEVERSION_ID"/>
+            <map-key column="NAME" length="32" type="string"/>
+            <element column="VALUE" type="text"/>
+        </map>
+    </class>
+    <class name="Language" table="languages">
+        <id column="CODE" length="2" name="code" type="string">
+            <generator class="assigned"/>
+        </id>
+        <map cascade="all-delete-orphan" name="labels" table="languages_labels">
+            <key column="LANGUAGE_CODE"/>
+            <map-key column="LANGUAGE" length="2" type="string"/>
+            <element column="LABEL" length="255" type="string"/>
+        </map>
+    </class>
+    <class name="Country" table="countries">
+        <id column="CODE" length="2" name="code" type="string">
+            <generator class="assigned"/>
+        </id>
+        <map cascade="all-delete-orphan" name="labels" table="countries_labels">
+            <key column="LANGUAGE_CODE"/>
+            <map-key column="LANGUAGE" length="2" type="string"/>
+            <element column="LABEL" length="255" type="string"/>
+        </map>
+    </class>
+    <class name="User" table="users">
+        <id column="ID" name="id">
+            <generator class="native"/>
+        </id>
+        <property column="STATUS" length="10" name="status" not-null="true">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.lfantastico.domain.User$Status</param>
+                <param name="type">12</param>
+            </type>
+        </property>
+        <property column="PASSWORD" length="32" name="passwordHash" not-null="true"/>
+        <property column="EMAIL" length="255" name="email" not-null="true" unique="true"/>
+        <property column="FIRSTNAME" length="32" name="firstName"/>
+        <property column="LASTNAME" length="32" name="lastName"/>
+        <property column="ADDRESS1" length="255" name="address1"/>
+        <property column="ADDRESS2" length="255" name="address2"/>
+        <property column="ZIP" length="12" name="zip"/>
+        <property column="CITY" length="32" name="city"/>
+        <property column="STATE" length="32" name="state"/>
+        <property column="COUNTRY" length="4" name="country"/>
+        <property column="PHONE" length="32" name="phoneNumber"/>
+        <property column="FAX" length="32" name="faxNumber"/>
+        <property column="SEX" length="6" name="sex" not-null="true">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.lfantastico.domain.User$Sex</param>
+                <param name="type">12</param>
+            </type>
+        </property>
+        <property column="ORIENTATION" length="7" name="orientation" not-null="true">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.lfantastico.domain.User$Orientation</param>
+                <param name="type">12</param>
+            </type>
+        </property>
+        <property column="RELATIONSHIP" length="8" name="relationship">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.lfantastico.domain.Relationship</param>
+                <param name="type">12</param>
+            </type>
+        </property>
+        <property column="DATEOFBIRTH" name="dateOfBirth" not-null="true" type="date"/>
+        <property column="REGISTEREDON" name="registeredOn" not-null="true" type="timestamp"/>
+        <many-to-one column="FAVORITELANGUAGE_CODE" lazy="proxy" name="favoriteLanguage" not-null="true"/>
+        <set lazy="true" name="languages" table="users_languages">
+            <key column="USER_ID"/>
+            <many-to-many class="Language" column="LANGUAGE_CODE"/>
+        </set>
+        <property column="ADMIN" name="admin" not-null="true"/>
+        <property column="ACTIVATIONKEY" length="16" name="activationKey"/>
+        <property column="PHOTO" lazy="true" name="photo" type="binary"/>
+        <property column="CREDIT" name="credit" not-null="true" precision="15" scale="2"/>
+        <property column="ABOUTME" name="aboutMe" type="text"/>
+    </class>
+    <class name="Event" table="events">
+        <id column="ID" name="id">
+            <generator class="native"/>
+        </id>
+        <property column="CREATION" name="creation" not-null="true" type="timestamp" index="creation"/>
+        <property column="DATETIME" name="dateTime" not-null="true" type="timestamp" index="dateTime"/>
+        <property column="LOCATION" length="255" name="location" type="string"/>
+        <property column="STATE" length="10" name="state" not-null="true">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.lfantastico.domain.Event$State</param>
+                <param name="type">12</param>
+            </type>
+        </property>
+        <property column="ORIENTATION" length="6" name="orientation" not-null="true">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.lfantastico.domain.Event$Orientation</param>
+                <param name="type">12</param>
+            </type>
+        </property>
+        <property column="RELATIONSHIP" length="8" name="relationship">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.lfantastico.domain.Relationship</param>
+                <param name="type">12</param>
+            </type>
+        </property>
+        <many-to-one column="LANGUAGE_CODE" lazy="proxy" name="language" not-null="true"/>
+        <component name="ageRange">
+            <property column="AGE_MIN" name="minAge"/>
+            <property column="AGE_MAX" name="maxAge"/>
+        </component>
+        <property column="ADDRESS" name="address" type="text"/>
+        <property column="PRICE" name="price" not-null="true" precision="15" scale="2"/>
+        <property column="MAX_ATTENDEES" name="maxAttendees" not-null="true"/>
+        <map cascade="all-delete-orphan" lazy="true" name="attendances">
+            <key column="EVENT_ID" not-null="true"/>
+            <map-key-many-to-many class="User" column="USER_ID"/>
+            <composite-element class="Attendance">
+                <parent name="event"/>
+                <property column="STATE" length="10" name="state" not-null="true">
+                    <type name="org.hibernate.type.EnumType">
+                        <param name="enumClass">com.lfantastico.domain.Attendance$State</param>
+                        <param name="type">12</param>
+                    </type>
+                </property>
+                <property column="NUMBER" name="number" not-null="true"/>
+            </composite-element>
+        </map>
+        <set lazy="true" name="keywords" table="events_keywords">
+            <key column="EVENT_ID"/>
+            <many-to-many class="Keyword" column="KEYWORD_ID"/>
+        </set>
+    </class>
+    <class name="Payment" table="payments">
+        <id column="ID" length="24" name="id">
+            <generator class="assigned"/>
+        </id>
+        <many-to-one column="PARENT_ID" lazy="proxy" name="parent"/>
+        <many-to-one column="USER_ID" lazy="false" name="user"/>
+        <many-to-one column="EVENT_ID" lazy="false" name="event"/>
+        <property column="DATETIME" name="dateTime" not-null="true" type="timestamp"/>
+        <property column="AMOUNT" name="amount" not-null="true" precision="15" scale="2"/>
+        <property column="DETAILS" name="details" type="text"/>
+    </class>
+    <database-object>
+        <!-- active_users view -->
+        <create>
+            CREATE VIEW active_users(USERNAME,PASSWORD) AS
+            SELECT EMAIL,PASSWORD FROM users WHERE STATUS&lt;&gt;'DISABLED'
+        </create>
+        <drop>DROP VIEW active_users</drop>
+    </database-object>
+    <database-object>
+        <!-- rolemap view -->
+        <create>
+            CREATE VIEW user_roles(USERNAME,ROLE) AS
+            SELECT EMAIL, 'user' FROM users WHERE STATUS&lt;&gt;'DISABLED'
+            UNION
+            SELECT EMAIL, 'enabled' FROM users WHERE STATUS='ENABLED'
+            UNION
+            SELECT EMAIL, 'admin' FROM users WHERE STATUS='ENABLED' AND ADMIN
+        </create>
+        <drop>DROP VIEW user_roles</drop>
+    </database-object>
+</hibernate-mapping>
