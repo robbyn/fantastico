@@ -1,3 +1,3 @@
-# fantastico
+# Fantastico
 
 Speed dating planning webapp
